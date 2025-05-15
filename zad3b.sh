@@ -11,8 +11,10 @@ SRC_ITEMS=(
 BACKUP_DIR="$HOME/backups"
 ARCHIVE_NAME="backup_$(date +%Y-%m-%d_%H-%M-%S).tar.gz"
 
-FTP_HOST="kaskay.kaskay"
-FTP_USER="albert"
+# ponizsze wartosci nalezy dostosowac pod swoje wymagania
+
+FTP_HOST="nazwa_hosta"
+FTP_USER="nazwa_usera"
 # poprosi uzytkownika o podanie hasla, ale ukryje go zeby nie byl wyswietlony na ekranie 
 read -s -p "Hasło FTP: " FTP_PASS; echo
 
